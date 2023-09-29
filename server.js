@@ -4,7 +4,7 @@ const connectDB = require('./config/db');
 require('dotenv').config();
 
 connectDB();
-const port = process.env.port || 5000;
+const port = https://devconnector-7z7s.onrender.com;
 
 app.use(express.json({ extended: false }));
 
