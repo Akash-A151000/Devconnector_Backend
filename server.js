@@ -6,7 +6,7 @@ const connectDB = require('./config/db');
 require('dotenv').config();
 
 connectDB();
-const port = process.env.BACKEND;
+const port = process.env.port || 5000;
 
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: 'cross-origin' }));
